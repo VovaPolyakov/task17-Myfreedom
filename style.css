@@ -177,3 +177,7 @@ header .header__buttons .header__button {
 .top .top__content .top__img {
   width: 600px;
 }
+
+.main__item {
+  background-color: white;
+}
