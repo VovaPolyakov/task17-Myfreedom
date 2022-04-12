@@ -506,3 +506,57 @@ header {
         color: #2D2D2D;
     }
 }
+
+
+footer{
+    margin-top: 120px ;
+    background-color: #2A8086;
+    .footer__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0 50px 0;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 0 0 10px;
+            li{
+                padding: 0 10px 0 10px;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    color: #C5E1E6
+                }
+                &:hover{
+                    border-bottom: 1px solid white;
+                }
+            }
+        }
+    }
+    .header__logo {
+        padding-right: 15px;
+    }
+    .footer__text {
+        display: flex;
+        flex-direction: column;
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: right;
+            text-transform: uppercase;
+            color: #FFFFFF
+        }
+    }
+}
